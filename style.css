@@ -20,6 +20,7 @@
 .footer .logo{
   color:#F4F4FD;
   text-decoration: none;
+  
 }
 .logo::before{
   content: "WEB";
@@ -42,14 +43,15 @@
   text-decoration: none;
   size: 16px;
   line-height:1.5;
+  margin-block-start: 0;
+
   
 }
 .pages a {
   color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
-  size: 16px;
-  line-height:1.5;
+  
   }
 
 ul {
@@ -59,33 +61,49 @@ ul {
   background-color:#4D5AE5;
   color: #FFFFFF;
   cursor: pointer;
-  
 }
-
-.button-order{
+.hero{
   display: flex;
-  justify-content: center;
-}
-.main-heder{
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-color: #2E2F42;
-}
-
-
-
-
-
- /* .hero-heder{
-  background-color:#2E2F42;
-  font-family: var(--logo-font-family);
-  font-weight: 700;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
   color: #FFFFFF;
-  background-color: 
-  #2E2F42;
-  line-height:60x;
- } */
+  background-color: #2E2F42;
+  width: 1200px;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  margin-block-start: 0;
+
+}
+.pages{
+  display: flex;
+  justify-content: space-evenly;
+  margin-block-start: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,7 +145,8 @@ ul {
 background-color: #2E2F42;
 color: #F4F4FD;
 line-height:1.5;
-
+display: flex;
+justify-content: flex-start;
 }
 .logo-studio{
   color: #FFFFFF;
@@ -215,18 +234,12 @@ line-height:1.5;
     background-color:#404BBF;
     color: #FFFFFF;
   }
-  .nav-menu{
-    display: flex;
-  }
-  .page-menu{
-    display: flex;
-  }
 .container{
   width: 1200px;
 }
 .about {
   display: flex;
-	justify-content: center;
+	justify-content: space-between;
   gap: 24px;
 
  }
@@ -247,7 +260,8 @@ line-height:1.5;
   justify-content: center;
   display: flex;
   gap: 24px;
+  background-color: white;
  }
- .team-background{
+ .team{
   background-color: #F4F4FD;
- }
+}

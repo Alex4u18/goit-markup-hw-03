@@ -61,25 +61,34 @@ ul {
   cursor: pointer;
   
 }
+
 .button-order{
-  padding: 16px,32px,16px,32px;
-  width: 169px;
-  height:56px;
-  font-weight: 500;
-  size: 16px;
-  border-radius: 4px;
-  border: none;
-  line-height:1.5;
+  display: flex;
+  justify-content: center;
 }
-.hero-heder{
+.main-heder{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #2E2F42;
+}
+
+
+
+
+
+ /* .hero-heder{
+  background-color:#2E2F42;
   font-family: var(--logo-font-family);
   font-weight: 700;
   color: #FFFFFF;
   background-color: 
   #2E2F42;
-  text-align: center;
   line-height:60x;
-}
+ } */
+
+
+
 .about li h3{
   font-weight: 500;
   size: 20px;

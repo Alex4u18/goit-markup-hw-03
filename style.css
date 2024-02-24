@@ -135,6 +135,7 @@ ul {
   size: 20px;
   color: var(--link-color);
   line-height:1.5;
+
 }
 .our-team p{
   size: 16px;
@@ -269,4 +270,10 @@ justify-content: flex-start;
  }
 .team-section h3 p{
   background-color: #FFFFFF;
+}
+.card1{
+  background-color: #FFFFFF;
+  justify-content: center;
+  text-align: center;
+
 }

@@ -257,11 +257,16 @@ justify-content: flex-start;
   display: flex;
  }
  .our-team{
-  justify-content: center;
+  justify-content: space-around;
   display: flex;
-  gap: 24px;
-  background-color: white;
  }
- .team{
+ .team-section{
   background-color: #F4F4FD;
+  gap: 32px;
+  padding: 0px, 0px, 32px, 0px;
+  top:1780px;
+  width: 1200px;
+ }
+.team-section h3 p{
+  background-color: #FFFFFF;
 }

@@ -181,13 +181,18 @@ border: none;
 .footer{
 background-color: #2E2F42;
 color: #F4F4FD;
-margin-top: 100px;
-
 }
 .logo-studio{
   color: #FFFFFF;
   line-height:21px;
+
   
+
+
+
+
+
+
 }
 .buttons .all {
   font-weight: 500;
@@ -336,7 +341,7 @@ margin-top: 100px;
 margin-bottom: 100px;
     margin-top: 17.5px;
 }
-.logo-footer{
+.logo-footer .logo{
+  margin-top: 100px;
     margin-bottom: 17.5px;
 }
-
